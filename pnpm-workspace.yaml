@@ -3,8 +3,10 @@ packages:
   - packages/*
   - shared/*
   - shared/configs/*
+
 catalog:
   lucide-react: ^0.518.0
+
 catalogs:
   types:
     '@types/node': ^24.0.3
@@ -16,9 +18,17 @@ catalogs:
     '@types/react-dom': ^19.1.6
     react: ^19.1.0
     react-dom: ^19.1.0
+  vite:
+    '@tailwindcss/vite': ^4.1.10
+    vite: ^6.3.5
+    vite-tsconfig-paths: ^5.1.4
+
 onlyBuiltDependencies:
+  - '@biomejs/biome'
   - '@parcel/watcher'
+  - '@swc/core'
   - '@tailwindcss/oxide'
   - core-js-pure
+  - esbuild
   - lefthook
   - sharp
