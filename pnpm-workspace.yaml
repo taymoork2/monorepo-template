@@ -1,0 +1,24 @@
+packages:
+  - apps/*
+  - packages/*
+  - shared/*
+  - shared/configs/*
+catalog:
+  lucide-react: ^0.518.0
+catalogs:
+  types:
+    '@types/node': ^24.0.3
+  typescript:
+    typescript: ^5.8.3
+    typescript-plugin-css-modules: ^5.1.0
+  react:
+    '@types/react': ^19.1.8
+    '@types/react-dom': ^19.1.6
+    react: ^19.1.0
+    react-dom: ^19.1.0
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - '@tailwindcss/oxide'
+  - core-js-pure
+  - lefthook
+  - sharp

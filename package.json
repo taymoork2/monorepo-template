@@ -1,0 +1,25 @@
+{
+	"name": "monorepo-template",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"build": "turbo build",
+		"dev": "turbo dev",
+		"lint": "biome check .",
+		"lint:fix": "biome check . --write",
+		"turbo:lint": "turbo run lint",
+		"turbo:lint:fix": "turbo run lint -- --fix",
+		"check-types": "turbo run check-types"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.0.4",
+		"@repo/tsconfig": "workspace:*",
+		"lefthook": "^1.11.14",
+		"turbo": "^2.5.4",
+		"typescript": "catalog:typescript"
+	},
+	"packageManager": "pnpm@10.10.0",
+	"engines": {
+		"node": ">=22"
+	}
+}
