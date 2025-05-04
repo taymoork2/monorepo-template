@@ -21,6 +21,9 @@ coverage
 # Vercel
 .vercel
 
+# Storybook
+storybook-static
+
 # Build Outputs
 .next/
 out/
