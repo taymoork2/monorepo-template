@@ -28,7 +28,7 @@ catalogs:
   vite:
     '@tailwindcss/vite': ^4.1.10
     '@vitejs/plugin-react-swc': ^3.10.2
-    vite: ^6.3.5
+    vite: ^6.4.5
     vite-tsconfig-paths: ^5.1.4
   vitest:
     vitest: ^3.2.4
